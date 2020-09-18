@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<Switch
+    android:id="@+id/wifiswitch"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Wifi:"
+    android:textSize="30sp"
+    android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_wifidevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get wifi devices"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_paireddevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get paired devices"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
